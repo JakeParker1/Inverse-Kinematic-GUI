@@ -19,28 +19,28 @@ h = subplot('Position', [-3500 3500 0 3000]);
 uicontrol("Style","text","String","Inverse Kinematics GUI", "Position", ...
     [250 400 200 30]);
 
-%First waste can label position 
-uicontrol('style',"text","String","First Waste Can Position","Position", ...
+%First Joint can label position 
+uicontrol('style',"text","String","First Joint Position","Position", ...
     [50 100 100 30]);
-%Create box for first waste can position
+%Create box for first joint position
 uicontrol('Style','edit', "Position", [50 50 100 30]); 
 
-%Second waste can label position
-uicontrol('style',"text","String","First Waste Can Position","Position", ...
+%Second Joint can label position
+uicontrol('style',"text","String","Second Joint Position","Position", ...
     [200 100 100 30]);
-%Create box for second waste can position
+%Create box for second joint position
 uicontrol('Style','edit', "Position", [200 50 100 30]); 
 
-%Third waste can label position
-uicontrol('style',"text","String","First Waste Can Position","Position", ...
+%Third Joint label position
+uicontrol('style',"text","String","Third Joint Position","Position", ...
     [350 100 100 30]);
-%Create box for third waste can position
+%Create box for third joint position
 uicontrol('Style','edit', "Position", [350 50 100 30]); 
 
-%Fourth waste can label position
-uicontrol('style',"text","String","First Waste Can Position","Position", ...
+%Fourth Joint label position
+uicontrol('style',"text","String","Fourth Joint Position","Position", ...
     [500 100 100 30]);
-%Create box for fourth waste can position
+%Create box for fourth joint position
 uicontrol('Style','edit', "Position", [500 50 100 30]); 
 
 %Create x value label 
