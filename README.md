@@ -21,14 +21,14 @@ uicontrol("Style","text","String","Inverse Kinematics GUI", "Position", ...
 
 %Declare variables
 %Length of first limb
-L1 = 1300
+L1 = 1300;
 %Length of second limb
-L2 = 1400
+L2 = 1400;
 
 %All possible theta1 values
-theta1 = 0:0.1:pi/2;
+theta1 = 0:5:pi/2;
 %All possible theta2 values
-theta2 = 0:0.1:pi;
+theta2 = 0:5:pi;
 
 %Create a grid showing theta1 and theta2 values
 [Theta1, Theta2] = meshgrid (theta1,theta2);
@@ -39,7 +39,7 @@ x = L1 * cos(theta1) + L2 * cos(theta1 + theta2);
 y = L1 * sin(theta1) + L2 * sin(theta1 + theta2);
 
 %Create x-y-theta1 dataset
-data1 = [x(:) y(:) theta11(:)];
+data1 = [x(:) y(:) theta1(:)];
 %Create x-y-theta2 dataset
 data2 = [x(:) y(:) theta2(:)];
 
