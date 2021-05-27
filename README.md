@@ -1,5 +1,3 @@
-# Required Joints-GUI
-
 %Required Joint Angles GUI
 
 %Clear workspace area and command 
@@ -19,28 +17,28 @@ h = subplot('Position', [-3500 3500 0 3000]);
 uicontrol("Style","text","String","Required Joints GUI", "Position", ...
     [250 400 200 30]);
 
-%First Joint can label position 
-uicontrol('style',"text","String","First Joint Position","Position", ...
+%First Waste Can position can label position 
+uicontrol('style',"text","String", "First Waste Can Position","Position", ...
     [50 100 100 30]);
-%Create box for first joint position
+%Create box for First Waste Can position
 uicontrol('Style','edit', "Position", [50 50 100 30]); 
 
-%Second Joint can label position
-uicontrol('style',"text","String","Second Joint Position","Position", ...
+%Second Waste Can label position
+uicontrol('style',"text","String","Second Waste Can Position","Position", ...
     [200 100 100 30]);
-%Create box for second joint position
+%Create box for Second Waste Can position
 uicontrol('Style','edit', "Position", [200 50 100 30]); 
 
-%Third Joint label position
-uicontrol('style',"text","String","Third Joint Position","Position", ...
+%Third Waste Can label position
+uicontrol('style',"text","String","Third Waste Can Position","Position", ...
     [350 100 100 30]);
-%Create box for third joint position
+%Create box for Third Waste Can position
 uicontrol('Style','edit', "Position", [350 50 100 30]); 
 
-%Fourth Joint label position
-uicontrol('style',"text","String","Fourth Joint Position","Position", ...
+%Fourth Waste Can label position
+uicontrol('style',"text","String","Fourth Waste Can Position","Position", ...
     [500 100 100 30]);
-%Create box for fourth joint position
+%Create box for Fourth Waste Can position
 uicontrol('Style','edit', "Position", [500 50 100 30]); 
 
 %Create x value label 
