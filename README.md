@@ -34,11 +34,20 @@ theta2 = 0:0.1:pi;
 [Theta1, Theta2] = meshgrid (theta1,theta2);
 
 %Generate x coordinates
-x = L1 * cos(THETA1) + L2 * cos(THETA1 + THETA2);
+x = L1 * cos(theta1) + L2 * cos(theta1 + theta2);
 %Generate y coordinates
-y = L1 * sin(THETA1) + L2 * sin(THETA1 + THETA2);
+y = L1 * sin(theta1) + L2 * sin(theta1 + theta2);
 
 %Create x-y-theta1 dataset
-data1 = [x(:) y(:) THETA1(:)];
+data1 = [x(:) y(:) theta11(:)];
 %Create x-y-theta2 dataset
-data2 = [x(:) y(:) THETA2(:)];
+data2 = [x(:) y(:) theta2(:)];
+
+%Plotting results
+plot(x(:), y(:), 'r.');
+%
+axis equal;
+%Labelling x axis
+xlabel('X','FontSize',10)
+%Labelling y axis
+ylabel('Y','FontSize',10)
