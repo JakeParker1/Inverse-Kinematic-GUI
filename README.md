@@ -42,3 +42,21 @@ uicontrol('style',"text","String","First Waste Can Position","Position", ...
     [500 100 100 30]);
 %Create box for fourth waste can position
 uicontrol('Style','edit', "Position", [500 50 100 30]); 
+
+%Create x value label 
+uicontrol('style','text', "String", "X Value","BackgroundColor",'red',...
+    'Position',[125 250 75 10]);
+%Create box for x value
+uicontrol('Style','edit', "Position", [110 200 100 30]);
+
+%Create y value label 
+uicontrol('style','text', "String", "Y Value","BackgroundColor",'blue',...
+    'Position',[275 250 75 10]);
+%Create box for y value
+uicontrol('Style','edit', "Position", [265 200 100 30]);
+
+%Create z value label 
+uicontrol('style','text', "String", "Z Value","BackgroundColor",'green',...
+    'Position',[425 250 75 10]);
+%Create box for z value
+uicontrol('Style','edit', "Position", [415 200 100 30]);
