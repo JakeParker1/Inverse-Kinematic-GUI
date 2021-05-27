@@ -62,28 +62,29 @@ uicontrol('style','text', "String", "Z Value","BackgroundColor",'green',...
 uicontrol('Style','edit', "Position", [500 210 100 30]);
 
 %Declaring Variables for Joint 1
-theta1 = 
-d1 = 
-a1 = 
-alpha1 = 
-
+theta1 = 0
+alpha1 = 0
+d1 = 1300
+a1 = 35
+ 
 %Declaring Variables for Joint 2
-theta2 = 
-d2 = 
-a2 = 
-alpha2 = 
+theta2 = 90
+alpha2 = 180
+d2 = 1400
+a2 = 45
 
 %Declaring Variables for Joint 3
-theta3 = 
-d3 = 
-a3 = 
-alpha3 = 
+theta3 = 90
+alpha3 = -90
+d3 = 0
+a3 = 45
 
 %Declaring Variables for Joint 4
-theta4 = 
-d4 = 
-a4 = 
-alpha4 = 
+theta4 = 0 
+alpha4 = 0
+d4 = 0
+a4 = 45
+
 
 %Adding DH table for the joints
 base = [1 0 0 0; 0 1 0 0; 0 0 0 1]
